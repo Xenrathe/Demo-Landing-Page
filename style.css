@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper, .header{
+    background-color: #1F2937;
+}
+
+.header, .upper, .middle, .testimonial, .bottom-signup{
+    display: flex;
+    width: 50%;
+    padding: 10px 100px;
+    margin: 0px 20%;
+    align-items: center;
+}
+
+.header {
+    gap: 25px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links{
+    margin-left: auto;
+}
+
+.upper {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    padding-right: 35px;
+    gap: 10px;
+}
+
+.left .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.middle .title {
+    font-weight: bolder;
+}
+
+.middle .title, .quote{
+    font-size: 36px;
+    color:#1F2937;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.left p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.middle {
+    background-color: white;
+}
+
+.bottom-signup, button {
+    background-color: #3882F6;
+}
+
+.bottom-signup {
+    border: 70px;
+    border-style: solid;
+    border-color: white;
+}
+
+.testimonial {
+    background-color: #b6b9be;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+button {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+p {
+    margin: 0;
+}
