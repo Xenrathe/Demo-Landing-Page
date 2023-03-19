@@ -112,10 +112,12 @@ h2 {
     display: flex;
     gap: 20px;
     font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .image-info {
-    width: 120px;
+    flex-basis: 120px;
     text-align: center;
 }
 
@@ -174,7 +176,7 @@ h2 {
 .call-to-action {
     font-weight: bolder;
     font-size: 20px;
-    min-width: 195px;
+    min-width: 180px;
 }
 
 .left .subtext {
