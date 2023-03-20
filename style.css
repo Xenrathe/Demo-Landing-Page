@@ -12,13 +12,22 @@ button {
     border-radius: 4px;
     padding: 5px 15px;
     font-size: 15px;
+    box-shadow: 0px 0px 15px;
 }
 
-.upper, .header{
+button:hover {
+    color: gold;
+}
+
+button:active{
+    box-shadow: 0px 0px 5px;
+}
+
+.upper, .header, .footer{
     background-color: #1F2937;
 }
 
-.header, .upper, .middle, .testimonial, .bottom-signup{
+.header, .upper, .middle, .testimonial, .bottom-signup, .footer{
     display: flex;
     width: 50%;
     padding: 10px 100px;
@@ -31,9 +40,10 @@ button {
 }
 
 .header .logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
 }
 
 .links{
@@ -95,6 +105,11 @@ button {
 a{
     text-decoration: none;
     margin: 0px 10px;
+}
+
+a:hover {
+    color: gold;
+    text-decoration: underline;
 }
 
 .middle {
@@ -202,6 +217,22 @@ button.right {
     margin-right: 40px;
     align-self: center;
     text-align: center;
+}
+
+button.right:hover {
+    border-color: gold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-size: 10px;
 }
 
 h1 {
